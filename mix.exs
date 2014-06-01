@@ -26,6 +26,8 @@ defmodule Issues.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [
+      { :httpoption,  github: "pragdave/httpotion" }
+    ]
   end
 end
