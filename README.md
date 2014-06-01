@@ -1,4 +1,9 @@
-Issues
+# Programming Elixir  exercises.
+
+This project saves some of the code entered during learning Elixir with the book.
+
+
+## Issues Chapt 13
 ======
 
-** TODO: Add description **
+First sample project using mix toolchain
