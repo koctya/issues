@@ -12,8 +12,10 @@ defmodule Issues.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [applications: [],
-     mod: {Issues, []}]
+    [
+      mod: { Issues, [] },
+      applications: [ :httpotion ]
+    ]
   end
 
   # Dependencies can be hex.pm packages:
@@ -27,7 +29,8 @@ defmodule Issues.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      { :httpoption,  github: "pragdave/httpotion" }
+      { :httpotion,  github: "myfreeweb/httpotion" }
+      #{ :httpotion,  github: "pragdave/httpotion" }
     ]
   end
 end
